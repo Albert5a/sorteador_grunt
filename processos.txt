@@ -1,0 +1,40 @@
+APRENDENDO A COMPILAR LESS E SASS UTILIZANDO GRUNT
+npm i -g grunt-cli (comande line interface)
+npm init
+npm i --save-dev grunt
+
+"scripts": {
+    "grunt": "grunt",
+
+Gruntfile.js
+
+Tornar tarefa assincrona
+
+npm install --save-dev grunt-contrib-less
+npm install --save-dev sass
+npm install --save-dev grunt-concurrent
+
+npm install --sav-dev grunt-contrib-watch // (plugin)
+
+// ** para qualquer pasta, * para arquivos
+
+// add plugin para termos um HTML para a pasta dev e um HTML para a pasta dist
+npm install --save-dev grunt-replace
+npm run grunt replace:dev
+
+minificando html
+npm install --save-dev grunt-contrib-htmlmin
+npm run grunt htmlmin:dist
+
+plugin para apagar um pasta temporaria
+npm install --save-dev grunt-contrib-clean
+
+ctrl + ; para transformar um linha em comentário no HTML
+
+Para arredondar número:
+Math.ceil()
+Math.floor()
+Math.round()
+
+npm install --save-dev grunt-contrib-uglify
+
